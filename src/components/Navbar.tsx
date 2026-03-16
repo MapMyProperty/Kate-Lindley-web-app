@@ -16,10 +16,6 @@ const navLinks = [
     { name: "Story", href: "/story" },
     { name: "Services", href: "/services" },
     { name: "Testimonials", href: "/testimonials" },
-    { name: "Provisions", href: "/essential-oils" },
-    { name: "Tools", href: "/tools" },
-    { name: "Retreats", href: "/retreats" },
-    { name: "Blog", href: "/blog" },
     { name: "Contact", href: "/contact" },
 ];
 

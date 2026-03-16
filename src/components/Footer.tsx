@@ -33,9 +33,7 @@ export default function Footer() {
                                 { name: "Story", href: "/story" },
                                 { name: "Services", href: "/services" },
                                 { name: "Testimonials", href: "/testimonials" },
-                                { name: "Provisions", href: "/essential-oils" },
-                                { name: "The Archive", href: "/tools" },
-                                { name: "Logbook", href: "/blog" },
+                                { name: "Contact", href: "/contact" },
                             ].map((link) => (
                                 <Link key={link.name} href={link.href} className="font-sans text-sm text-stone-400 hover:text-white transition-colors">
                                     {link.name}

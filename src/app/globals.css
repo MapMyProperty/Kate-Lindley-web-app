@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme inline {
-  /* Modern Luxe Palette */
+  /* Kate Lindley Brand Palette */
   --color-stone-50: #fafaf9;
   --color-stone-100: #f5f5f4;
   --color-stone-200: #e7e5e4;
@@ -14,12 +14,20 @@
   --color-stone-900: #1c1917;
   --color-stone-950: #0c0a09;
 
-  --color-accent-gold: #c5a059;
-  --color-accent-sage: #8b9d83;
-  --color-accent-clay: #b27c65;
+  /* Custom Kate Lindley Colors */
+  --color-accent-sand: #E8DCC8;
+  --color-accent-ocean: #7FAFC6;
+  --color-accent-palm: #7F9C84;
+  --color-accent-coral: #F3A79A;
+  --color-accent-peach: #F2C6A0;
 
-  --font-serif: var(--font-playfair);
-  --font-sans: var(--font-montserrat);
+  /* Alias legacy colors to new ones where possible to prevent breaking */
+  --color-accent-gold: var(--color-accent-peach);
+  --color-accent-sage: var(--color-accent-palm);
+  --color-accent-clay: var(--color-accent-coral);
+
+  --font-serif: var(--font-playfair, "Playfair Display", Georgia, serif);
+  --font-sans: Helvetica, Arial, sans-serif;
 
   /* Fixed shadow definitions */
   --shadow-luxe: 0 4px 20px -4px rgba(0, 0, 0, 0.05);
@@ -47,9 +55,19 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-serif), serif;
-  font-weight: 700;
-  letter-spacing: -0.02em;
+  font-family: var(--font-serif);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+h1 { font-size: 2rem; line-height: 1.15; }
+h2 { font-size: 1.6rem; line-height: 1.25; }
+h3 { font-size: 1.35rem; line-height: 1.35; }
+
+@media (min-width: 768px) {
+  h1 { font-size: 2.75rem; }
+  h2 { font-size: 2rem; }
+  h3 { font-size: 1.6rem; }
 }
 
 /* Modern Effects */

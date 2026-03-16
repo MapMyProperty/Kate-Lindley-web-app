@@ -16,7 +16,7 @@ export default function Hero() {
             >
                 <div
                     className="absolute inset-0 bg-cover bg-center"
-                    style={{ backgroundImage: "url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&q=80&w=2070')" }}
+                    style={{ backgroundImage: "url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&q=80&w=2070')" }}
                 />
                 <div className="absolute inset-0 bg-stone-900/40 backdrop-blur-[2px]" />
             </motion.div>
@@ -32,12 +32,12 @@ export default function Hero() {
                         <span className="inline-block px-4 py-1.5 mb-6 border border-stone-100/30 rounded-full font-sans text-[10px] uppercase tracking-widest text-stone-100 font-bold backdrop-blur-md">
                             Your Basecamp for Inner Exploration
                         </span>
-                        <h1 className="font-serif text-6xl md:text-9xl text-stone-100 leading-tight tracking-tighter mb-8">
-                            Navigate Your <br />
-                            <span className="italic text-stone-300">Inner World</span>
+                        <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl text-stone-100 leading-tight tracking-tight mb-8">
+                            Explore with Kate<br />
+                            <span className="italic text-stone-300">your inner and outer world</span>
                         </h1>
-                        <p className="font-sans text-stone-200 text-lg md:text-2xl max-w-2xl mx-auto mb-12">
-                            Holistic coaching for sensitive souls. Regulate your nervous system and embark on the most important expedition of your life.
+                        <p className="font-sans text-stone-200 text-base md:text-lg max-w-2xl mx-auto mb-12">
+                            Welcome! Thank you for being here. My website is a hub for my coaching and yoga services, retreats, my travel and wellness blog and for you to learn a little bit more about me!
                         </p>
                     </motion.div>
 
